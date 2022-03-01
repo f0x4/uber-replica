@@ -27,6 +27,7 @@ const NavOptions = () => {
             data={navItems}
             horizontal
             keyExtractor={(item) => item.id}
+            showsHorizontalScrollIndicator={false}
             renderItem={({ item }) => {
                 return (
                     <TouchableOpacity
