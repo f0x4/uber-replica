@@ -3,6 +3,8 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import tw from "tailwind-react-native-classnames";
 import Map from "../components/Map";
+import NavigateCard from "../components/NavigateCard";
+import RideOptionsCard from "../components/RideOptionsCard";
 
 const MapScreen = () => {
     const Stack = createStackNavigator();
@@ -17,14 +19,14 @@ const MapScreen = () => {
                 <Stack.Navigator>
                     <Stack.Screen
                         name="NavigateCard"
-                        component={NavOptions}
+                        component={NavigateCard}
                         options={{
                             headerShown: false,
                         }}
                     ></Stack.Screen>
                     <Stack.Screen
                         name="RideOptionsCard"
-                        component={NavOptions}
+                        component={RideOptionsCard}
                         options={{
                             headerShown: false,
                         }}
@@ -36,5 +38,3 @@ const MapScreen = () => {
 };
 
 export default MapScreen;
-
-const styles = StyleSheet.create({});

@@ -1,4 +1,4 @@
-import { Image, SafeAreaView, StyleSheet, Text, View } from "react-native";
+import { Image, SafeAreaView, View } from "react-native";
 import React from "react";
 import tw from "tailwind-react-native-classnames";
 import NavOptions from "../components/NavOptions";
@@ -47,5 +47,3 @@ const HomeScreen = () => {
 };
 
 export default HomeScreen;
-
-const styles = StyleSheet.create({});

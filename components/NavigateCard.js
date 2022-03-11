@@ -6,7 +6,7 @@ import {
     View,
     SafeAreaView,
 } from "react-native";
-import tw from "twrnc";
+import tw from "tailwind-react-native-classnames";
 import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplete";
 import { GOOGLE_MAPS_APIKEY } from "@env";
 import { useDispatch } from "react-redux";
